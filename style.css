@@ -116,6 +116,38 @@ body {
     padding: 2rem 1.5rem;
 }
 
+/* Hamburger Menu Lines */
+.hamburger-lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 25px;
+}
+.hamburger-lines span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Certification Cards */
+.certification-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
+}
+.certification-card .card-body {
+    padding: 2rem 1.5rem;
+}
+
 /* About Section */
 .about-image {
     animation: pulse 4s ease-in-out infinite;
